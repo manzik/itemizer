@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: 'postgres:9.6.24-alpine'
+    volumes:
+      - 'postgres:/var/lib/postgresql/data'
+    environment:
+      POSTGRES_PASSWORD: password
+
+  web:
+    depends_on:
+      - 'postgres'
+    build: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - '.:/itemizer'
+    env_file:
+      - '.env'
+
+volumes:
+  postgres:
