@@ -166,15 +166,15 @@ Request:
   Request:
   ```json
   {
-    "tracking_number": ""
+      "tracking_number": ""
   }
   ```
   Response:
   ```json
   {
-    "errors": [
-        "Tracking number can't be blank"
-    ]
+      "errors": [
+          "Tracking number can't be blank"
+      ]
   }
   ```
   
