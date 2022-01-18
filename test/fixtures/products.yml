@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Magnifying Glass
+  description: A little less cool than a microscope.
+  quantity: 40
+
+two:
+  name: Encyclopedia of Fish
+  description: The pages of this book are all warped from water damage.
+  quantity: 12
+
+three:
+  name: School Bus
+  description:  Don't think you have a license for this bad boy.
+  quantity: 5

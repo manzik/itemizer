@@ -1,0 +1,26 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shipment: one
+  product: one
+  quantity: 2
+
+two:
+  shipment: one
+  product: three
+  quantity: 1
+
+three:
+  shipment: one
+  product: two
+  quantity: 2
+
+shipping_product4:
+  shipment: two
+  product: three
+  quantity: 2
+
+shipping_product4:
+  shipment: two
+  product: two
+  quantity: 3

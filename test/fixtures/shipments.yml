@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tracking_number: 9d667524-fb4f-45d7-8fe3-aeae8ab7fb9c
+  recipient_name: Alton M. Cordray
+  recipient_email: AltonMCordray@rhyta.com
+  recipient_address: 2928 Lynden Road
+                     Wasaga Beach, ON L0L 2P0
+
+two:
+  tracking_number: b93aa3b7-9877-4cbb-be41-314922c01a95
+  recipient_name: Abraham Churchwell
+  recipient_email: AbrahamNChurchwell@armyspy.com
+  recipient_address: 1285 Burnt Island Road
+                     Windermere, ON P0B 1P0

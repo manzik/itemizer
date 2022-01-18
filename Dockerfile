@@ -13,7 +13,6 @@ ENV BUNDLER_VERSION=2.3.5
 RUN gem update --system
 RUN gem install bundler -v $BUNDLER_VERSION
 COPY Gemfile Gemfile.lock ./
-RUN yarn install --check-files
 RUN bundle install
 
 COPY . .
