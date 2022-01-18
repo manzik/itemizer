@@ -12,6 +12,20 @@ Technologies:
    - Backend Database: PostgreSQL
    - Frontend: React + Material UI
    - Containerization: Docker
+# Table of contents
+- [Running the Project](#running-the-project)
+  - [Prerequisites](#prerequisites)
+  - [Install and Run](#install-and-run)
+  - [Run the Test Cases (Optional)](#run-the-test-cases-optional)
+  - [Populate the Database (Optional)](#populate-the-database-optional)
+- [Main Files](#main-files)
+- [API](#api)
+  - [Available endpoints](#available-endpoints)
+  - [Submitting Data](#submitting-data)
+  - [Reading Reponses](#reading-reponses)
+- [Notes](#notes)
+  - [API Remarks](#api-remarks)
+  - [Future Considerations](#future-considerations)
 
 # Running the Project
 ## Prerequisites
