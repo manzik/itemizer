@@ -39,7 +39,7 @@ Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
    ```bash
    docker-compose exec web rails db:fixtures:load
    ```
-# Main Files:
+# Main Files
 
 - Database: [db/](db/)
   - Schema: [db/schema.rb](db/schema.rb)
