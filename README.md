@@ -33,26 +33,29 @@ Docker: [https://docs.docker.com/compose/install/](https://docs.docker.com/compo
 Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 ## Install and Run
 1. Clone the project into your preferred working directory using git:
-   ```bash
-   git clone https://github.com/manzik/itemizer
-   ```
-2. Copy `.env.example` to `.env` in the project's folder.
-3. Open a terminal an navigate to the project's folder.
+
+	   git clone https://github.com/manzik/itemizer
+
+2. Open a terminal an navigate to the project's folder.
+3. Copy `.env.example` to `.env`:
+
+	   cp .env.example .env
+
 4. Run the app using docker-compose:
-   ```bash
-   docker-compose up
-   ```
+
+	   docker-compose up
+
 5. Open [http://localhost:3000](http://localhost:3000) to access the frontend interacting with the backend.
 ## Run the Test Cases (Optional)
-   Run the integration and unit tests:
-   ```bash
-   docker-compose exec web rails test
-   ```
+Run the integration and unit tests:  
+
+	docker-compose exec web rails test
+
 ## Populate the Database (Optional)
-   Just to have some basic data in the database to see the api's functionality, you can populate the database with fixtures:
-   ```bash
-   docker-compose exec web rails db:fixtures:load
-   ```
+Just to have some basic data in the database to see the api's functionality, you can populate the database with fixtures:
+   
+	docker-compose exec web rails db:fixtures:load
+
 # Main Files
 
 - Database: [db/](db/)
