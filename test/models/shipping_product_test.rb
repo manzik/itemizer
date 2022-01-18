@@ -28,7 +28,7 @@ class ShippingProductTest < ProductQuantityModifierTest
     end
   end
 
-  test "Emptying stock should succeed" do
+  test "emptying stock should succeed" do
     assert ship_product(@product, @shipment, @product.quantity)
   end
 

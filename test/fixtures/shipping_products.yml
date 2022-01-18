@@ -15,12 +15,12 @@ three:
   product: two
   quantity: 2
 
-shipping_product4:
+four:
   shipment: two
   product: three
   quantity: 2
 
-shipping_product4:
+five:
   shipment: two
   product: two
   quantity: 3
