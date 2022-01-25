@@ -5,7 +5,7 @@ App features:
    - CRUD functionality for all resources
    - Keep track of inventory products
    - Keep track of shipments and assign a specific number of each product to it
-   - Changes to shipments are automatically reflected in the inventory (ex. adding 2 item of a specific product to a shipment decreases inventory levels for that product by 2)  
+   - Changes to shipments are automatically reflected in the inventory (ex. adding 2 items of a specific product to a shipment decreases inventory levels for that product by 2)  
 
 Technologies:
    - Backend Framework: Rails
@@ -22,7 +22,7 @@ Technologies:
 - [API](#api)
   - [Available endpoints](#available-endpoints)
   - [Submitting Data](#submitting-data)
-  - [Reading Reponses](#reading-reponses)
+  - [Reading Responses](#reading-responses)
 - [Notes](#notes)
   - [API Remarks](#api-remarks)
   - [Future Considerations](#future-considerations)
@@ -36,7 +36,7 @@ Git: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
 	   git clone https://github.com/manzik/itemizer
 
-2. Open a terminal an navigate to the project's folder.
+2. Open a terminal and navigate to the project's folder.
 3. Copy `.env.example` to `.env`:
 
 	   cp .env.example .env
@@ -52,7 +52,7 @@ Run the integration and unit tests:
 	docker-compose exec web rails test
 
 ## Populate the Database (Optional)
-Just to have some basic data in the database to see the api's functionality, you can populate the database with fixtures:
+Just to have some basic data in the database to see the API's functionality, you can populate the database with fixtures:
    
 	docker-compose exec web rails db:fixtures:load
 
@@ -72,7 +72,7 @@ Just to have some basic data in the database to see the api's functionality, you
 
 # API
 
-Note: In an actual application, a more comprehensive documentation is needed for all available endpoints.  
+Note: In an actual application, more comprehensive documentation is needed for all available endpoints.  
 A good tool for this purpose would be [swagger](https://swagger.io/).
 
 ## Available endpoints
@@ -104,7 +104,7 @@ For POST, PUT and PATCH requests, use the following convention in your request's
     }
 }
 ```
-Where entity is the type of object you are submitting.  
+Where "entity" is the type of object you are submitting.  
 For example, to add a new product you can do:  
 
 `POST` /api/v1/products/  
@@ -119,7 +119,7 @@ Request:
 }
 ```
 
-## Reading Reponses
+## Reading Responses
 - If successful, the result is sent back under the `data` key in the response.  
   For example, when you get the list of all products:  
   
